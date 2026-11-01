@@ -1,0 +1,21 @@
+{
+  "upstream": "https://github.com/Ryu7w7/OCTR-NitroFueled-PC",
+  "snapshot": "Unmodified files from the locally tested portable installation; upstream commit not recorded.",
+  "files": [
+    {
+      "file": "archive_reader.py",
+      "sha256": "b45de16b100d48099bdff5ae40d92e76c3bbb4ebe3e39a65169cfe3717fa45a4",
+      "source_path": "scripts/archive_reader.py"
+    },
+    {
+      "file": "mod_file_paths.py",
+      "sha256": "ffc122d70f5b95d85822d0da2e4e6fa86192d4529c0609bbbcfcd7f37e13d9ac",
+      "source_path": "scripts/mod_file_paths.py"
+    },
+    {
+      "file": "widescreen_startup.py",
+      "sha256": "e209fe18c2b9c6da76288ab4f7ae616bb269b4d5ba5e8e5971b81cd06ccc5bde",
+      "source_path": "scripts/widescreen_startup.py"
+    }
+  ]
+}

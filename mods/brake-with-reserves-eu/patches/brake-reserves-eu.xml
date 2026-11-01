@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <TitleID>
+    <ID>CUSA14876</ID>
+  </TitleID>
+  <Metadata Title="Crash Team Racing Nitro-Fueled" Name="Keep Boost Reserves While Braking" Author="Local custom mod" PatchVer="0.2.0" AppVer="01.21" AppElf="eboot.bin" isEnabled="false" Note="Experimental offline gameplay patch. Bypasses the brake-specific boost eligibility gate, including its early-expiry check. Normal boost aging, damage checks and steering remain active.">
+    <PatchList>
+      <Line Type="bytes" Address="0x122f213" Value="eb" Signature="48 85 db 74 13 80 bb 14 02 00 00 00 74 0a 80 7b 35 00 0f 85 d1 00 00 00 49 8b 47 68" SignatureOffset="0xc" ExpectedSHA256="e3b98a4da31a127d4bde6e43033f66ba274cab0eb7eb1c70ec41402bf6273dd8" />
+    </PatchList>
+  </Metadata>
+</Patch>

@@ -1,0 +1,41 @@
+{
+  "package": {
+    "file": "triple-drift-reserves-eu-0.1.0.zip",
+    "sha256": "12d711dc274d215f053550d7a7c92cd2b56aa8e5a28c7cf551c609f26eab856d",
+    "bytes": 2714,
+    "id": "triple-drift-reserves-eu",
+    "version": "0.1.0"
+  },
+  "target": "CUSA14876 01.21",
+  "gameplay_verification": {
+    "method": "User driving test on this PC",
+    "version": "0.1.0",
+    "result": "Both Good and Perfect drift boosts produce larger reserve gains.",
+    "user_confirmation": "Both give larger reserve gains",
+    "scope": "User confirmed increased gains for both ratings; exact 3x multiplier is supported by the award and asset tests, not a user timing measurement."
+  },
+  "offline_startup_verified": true,
+  "source_game_unchanged": true,
+  "multiplier": 3,
+  "changed_sustain_fields": 102,
+  "asset_operations": 3,
+  "award_checks": 1023,
+  "all_award_checks_passed": true,
+  "effective_runtime_archive_views_verified": [
+    {
+      "archive": "permanent.pak",
+      "asset": "looseData/DrivingArchetypes.igz",
+      "effective_payload_sha256": "ac99a8734be47f959d1f872749c26af171a8c0aedac01be3245305d1ff97f0a0"
+    },
+    {
+      "archive": "update.pak",
+      "asset": "LooseData/DrivingArchetypes.igz",
+      "effective_payload_sha256": "d903fad4460ba4b80622b4ab1b730c4245513a3833f33569e032594ef27ab477"
+    },
+    {
+      "archive": "update2.pak",
+      "asset": "LooseData/DrivingArchetypes.igz",
+      "effective_payload_sha256": "62dd787e63483db03029b046fed5e506a27e176320ada99a0ec9fb00772936c2"
+    }
+  ]
+}

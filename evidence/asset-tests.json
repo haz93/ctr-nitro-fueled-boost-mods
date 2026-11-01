@@ -1,0 +1,27 @@
+{
+  "all_passed": true,
+  "fields": 102,
+  "assets": [
+    {
+      "archive": "permanent.pak",
+      "modified_fields": 32,
+      "original_sha256": "f613a3120a49b94c125b4c7106f8cfc19a9c7b9b848c37154c037ad55b325cbd",
+      "patched_sha256": "ac99a8734be47f959d1f872749c26af171a8c0aedac01be3245305d1ff97f0a0",
+      "only_selected_sustain_fields_changed": true
+    },
+    {
+      "archive": "update.pak",
+      "modified_fields": 32,
+      "original_sha256": "54d8517757df01318b55498229acc2345895d66a90202706e89b633638b0f72d",
+      "patched_sha256": "d903fad4460ba4b80622b4ab1b730c4245513a3833f33569e032594ef27ab477",
+      "only_selected_sustain_fields_changed": true
+    },
+    {
+      "archive": "update2.pak",
+      "modified_fields": 38,
+      "original_sha256": "a19d027bddd970c8ffc3df5e2e01031bd41e7961b8a71def2e144c7158837cfe",
+      "patched_sha256": "62dd787e63483db03029b046fed5e506a27e176320ada99a0ec9fb00772936c2",
+      "only_selected_sustain_fields_changed": true
+    }
+  ]
+}

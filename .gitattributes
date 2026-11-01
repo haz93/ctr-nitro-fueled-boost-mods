@@ -1,0 +1,5 @@
+* text=auto eol=lf
+*.zip binary
+# Keep the verified package source byte-for-byte, including its inventory hashes.
+mods/** -text whitespace=cr-at-eol
+third_party/octr/*.py -text whitespace=cr-at-eol

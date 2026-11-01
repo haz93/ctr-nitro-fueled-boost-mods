@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 2,
+  "id": "brake-with-reserves-eu",
+  "name": "Brake Without Losing Reserves (EU, Experimental)",
+  "version": "0.2.0",
+  "author": "Local custom mod",
+  "description": "Offline experiment: braking uses normal-driving boost eligibility, preserving accumulated reserves. Fixes 0.1.0 early reserve loss. Ordinary boost aging, damage checks and brake/steering physics remain active. Does not force U-turn steering. EU CUSA14876 01.21.",
+  "requiresCapabilities": [
+    "xml-patches",
+    "code-signatures"
+  ],
+  "compatibility": {
+    "online": "offline-only"
+  },
+  "patches": [
+    "patches/brake-reserves-eu.xml"
+  ],
+  "operations": [],
+  "files": [
+    {
+      "file": "octr-mod.required",
+      "sha256": "2d5586c93e82ea2dbaaf8ddd5fc63068a0399479ef9824fb49c477b62a4ccc26",
+      "bytes": 19
+    },
+    {
+      "file": "patches/brake-reserves-eu.xml",
+      "sha256": "9c3a843927aca698ae4dbe561650618a5a490838cc7179c0fa6720a515d1046a",
+      "bytes": 799
+    },
+    {
+      "file": "README.txt",
+      "sha256": "7fd89636f04a9781fb932620ca8f51ad137eeba3b9fa772ade311f2e2e0cb6a4",
+      "bytes": 2533
+    }
+  ]
+}

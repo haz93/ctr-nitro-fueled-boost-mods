@@ -1,0 +1,16 @@
+/work/
+/build/
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+eboot*
+*.elf
+*.bin
+*.pak
+*.igz
+*.sav
+*.log
+credentials*
+github-account.json

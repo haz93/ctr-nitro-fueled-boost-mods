@@ -1,0 +1,263 @@
+{
+  "version": "0.2.0",
+  "all_passed": true,
+  "cases": 558,
+  "prior_bug_reproduced": true,
+  "regression": [
+    {
+      "version": 0,
+      "brake": false,
+      "before": {
+        "boost_count": 1,
+        "ages": [
+          2.0
+        ],
+        "reserves": 18.2
+      },
+      "after": {
+        "boost_count": 1,
+        "ages": [
+          2.0166666507720947
+        ],
+        "reserves": 18.183333349227905
+      }
+    },
+    {
+      "version": 1,
+      "brake": true,
+      "before": {
+        "boost_count": 1,
+        "ages": [
+          2.0
+        ],
+        "reserves": 18.2
+      },
+      "after": {
+        "boost_count": 0,
+        "ages": [],
+        "reserves": 0.0
+      }
+    },
+    {
+      "version": 2,
+      "brake": true,
+      "before": {
+        "boost_count": 1,
+        "ages": [
+          2.0
+        ],
+        "reserves": 18.2
+      },
+      "after": {
+        "boost_count": 1,
+        "ages": [
+          2.0166666507720947
+        ],
+        "reserves": 18.183333349227905
+      }
+    }
+  ],
+  "real_boost_update_executed": true,
+  "real_duration_helper_executed": true,
+  "duration_helper_stubbed": false,
+  "normal_expiry_verified": true,
+  "braking_matches_stock_no_brake": true,
+  "damage_invalidation_preserved": true,
+  "abi_and_stack_preserved": true,
+  "stubs": [
+    "reference release",
+    "memmove implemented in test harness",
+    "derived speed calculation after update",
+    "derived intensity calculation after update"
+  ],
+  "timelines": [
+    {
+      "initial_durations": [
+        4.0
+      ],
+      "states": [
+        {
+          "frame": 1,
+          "boost_count": 1,
+          "ages": [
+            2.25
+          ],
+          "reserves": 1.9500000000000002
+        },
+        {
+          "frame": 2,
+          "boost_count": 1,
+          "ages": [
+            2.5
+          ],
+          "reserves": 1.7000000000000002
+        },
+        {
+          "frame": 8,
+          "boost_count": 1,
+          "ages": [
+            4.0
+          ],
+          "reserves": 0.20000000000000018
+        },
+        {
+          "frame": 16,
+          "boost_count": 0,
+          "ages": [],
+          "reserves": 0.0
+        },
+        {
+          "frame": 32,
+          "boost_count": 0,
+          "ages": [],
+          "reserves": 0.0
+        },
+        {
+          "frame": 64,
+          "boost_count": 0,
+          "ages": [],
+          "reserves": 0.0
+        },
+        {
+          "frame": 100,
+          "boost_count": 0,
+          "ages": [],
+          "reserves": 0.0
+        }
+      ],
+      "eventually_empty": true
+    },
+    {
+      "initial_durations": [
+        4.0,
+        8.0,
+        12.0
+      ],
+      "states": [
+        {
+          "frame": 1,
+          "boost_count": 3,
+          "ages": [
+            2.25,
+            2.25,
+            2.25
+          ],
+          "reserves": 17.849999999999998
+        },
+        {
+          "frame": 2,
+          "boost_count": 3,
+          "ages": [
+            2.5,
+            2.5,
+            2.5
+          ],
+          "reserves": 17.099999999999998
+        },
+        {
+          "frame": 8,
+          "boost_count": 3,
+          "ages": [
+            4.0,
+            4.0,
+            4.0
+          ],
+          "reserves": 12.599999999999998
+        },
+        {
+          "frame": 16,
+          "boost_count": 2,
+          "ages": [
+            6.0,
+            6.0
+          ],
+          "reserves": 8.399999999999999
+        },
+        {
+          "frame": 32,
+          "boost_count": 1,
+          "ages": [
+            10.0
+          ],
+          "reserves": 2.1999999999999993
+        },
+        {
+          "frame": 64,
+          "boost_count": 0,
+          "ages": [],
+          "reserves": 0.0
+        },
+        {
+          "frame": 100,
+          "boost_count": 0,
+          "ages": [],
+          "reserves": 0.0
+        }
+      ],
+      "eventually_empty": true
+    },
+    {
+      "initial_durations": [
+        20.0
+      ],
+      "states": [
+        {
+          "frame": 1,
+          "boost_count": 1,
+          "ages": [
+            2.25
+          ],
+          "reserves": 17.95
+        },
+        {
+          "frame": 2,
+          "boost_count": 1,
+          "ages": [
+            2.5
+          ],
+          "reserves": 17.7
+        },
+        {
+          "frame": 8,
+          "boost_count": 1,
+          "ages": [
+            4.0
+          ],
+          "reserves": 16.2
+        },
+        {
+          "frame": 16,
+          "boost_count": 1,
+          "ages": [
+            6.0
+          ],
+          "reserves": 14.2
+        },
+        {
+          "frame": 32,
+          "boost_count": 1,
+          "ages": [
+            10.0
+          ],
+          "reserves": 10.2
+        },
+        {
+          "frame": 64,
+          "boost_count": 1,
+          "ages": [
+            18.0
+          ],
+          "reserves": 2.1999999999999993
+        },
+        {
+          "frame": 100,
+          "boost_count": 0,
+          "ages": [],
+          "reserves": 0.0
+        }
+      ],
+      "eventually_empty": true
+    }
+  ],
+  "gameplay_verified": false
+}

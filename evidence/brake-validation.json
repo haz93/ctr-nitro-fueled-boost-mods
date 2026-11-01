@@ -1,0 +1,31 @@
+{
+  "package": {
+    "file": "brake-with-reserves-eu-0.2.0.zip",
+    "sha256": "60b68243b1d0f47be6d0d82045e06fa91d05fef3aae710db366fbf7aeca504dc",
+    "bytes": 2925,
+    "id": "brake-with-reserves-eu",
+    "version": "0.2.0"
+  },
+  "target": "CUSA14876 01.21",
+  "gameplay_verification": {
+    "method": "User driving test on this PC",
+    "version": "0.2.0",
+    "result": "After building reserves, pressing Square preserves the bank apart from normal time-based depletion.",
+    "user_confirmation": "Yes, reserves now drain normally",
+    "scope": "Brake reserve retention only; no claim of exhaustive track, kart, or multiplayer validation."
+  },
+  "offline_startup_verified": true,
+  "game_eboot_sha256": "39d716b70a299b2546bd39996c8592f9375d3f18f9bb8bf11f9139e9af1eb3f5",
+  "patch_ps4_address": "0x122f213",
+  "patch_image_offset": "0xe2f213",
+  "original_hex": "74",
+  "replacement_hex": "eb",
+  "modified_executable_bytes": 1,
+  "signature_unique": true,
+  "strict_patch_compile": true,
+  "machine_code_cases": 558,
+  "machine_code_cases_passed": true,
+  "normal_reserve_depletion_tested": true,
+  "source_game_unchanged": true,
+  "live_patch_verified": true
+}

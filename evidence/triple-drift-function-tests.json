@@ -1,0 +1,630 @@
+{
+  "all_passed": true,
+  "checks": 1023,
+  "endpoint_definitions": 102,
+  "quality_samples": 819,
+  "quality_math": "Float32 linear interpolation sampled from Good/min to Perfect/max endpoints",
+  "actual_machine_code_award_blocks_executed": [
+    "fresh boost sustain initialization",
+    "chain reserve addition"
+  ],
+  "scope": "Award initialization and addition; full head replacement and full drift control flow are not emulated.",
+  "award_multiplier": 3,
+  "only_sustain_fields_changed": true,
+  "speed_ramp_and_other_object_fields_preserved": true,
+  "endpoints": [
+    {
+      "archive": "permanent.pak",
+      "name": "DrivingArchetype_Advanced_driftData_driftBoostList_0_minBoost",
+      "original_award": 0.30000001192092896,
+      "triple_award": 0.9000000357627869
+    },
+    {
+      "archive": "permanent.pak",
+      "name": "DrivingArchetype_Advanced_driftData_driftBoostList_0_maxBoost",
+      "original_award": 1.7689999341964722,
+      "triple_award": 5.306999683380127
+    },
+    {
+      "archive": "permanent.pak",
+      "name": "DrivingArchetype_Advanced_driftData_driftBoostList_1_minBoost",
+      "original_award": 0.33399999141693115,
+      "triple_award": 1.0019999742507935
+    },
+    {
+      "archive": "permanent.pak",
+      "name": "DrivingArchetype_Advanced_driftData_driftBoostList_1_maxBoost",
+      "original_award": 1.7669999599456787,
+      "triple_award": 5.301000118255615
+    },
+    {
+      "archive": "permanent.pak",
+      "name": "DrivingArchetype_Advanced_driftData_driftBoostList_2_minBoost",
+      "original_award": 0.2670000195503235,
+      "triple_award": 0.8009999990463257
+    },
+    {
+      "archive": "permanent.pak",
+      "name": "DrivingArchetype_Advanced_driftData_driftBoostList_2_maxBoost",
+      "original_award": 1.899999976158142,
+      "triple_award": 5.700000286102295
+    },
+    {
+      "archive": "permanent.pak",
+      "name": "DrivingArchetype_Advanced_driftData_maxDriftBoost",
+      "original_award": 1.600000023841858,
+      "triple_award": 4.799999713897705
+    },
+    {
+      "archive": "permanent.pak",
+      "name": "DrivingArchetype_Advanced_driftData_normalDriftBoost",
+      "original_award": 0.6000000238418579,
+      "triple_award": 1.8000000715255737
+    },
+    {
+      "archive": "permanent.pak",
+      "name": "DrivingArchetype_Beginner_driftData_driftBoostList_0_minBoost",
+      "original_award": 0.30000001192092896,
+      "triple_award": 0.9000000357627869
+    },
+    {
+      "archive": "permanent.pak",
+      "name": "DrivingArchetype_Beginner_driftData_driftBoostList_0_maxBoost",
+      "original_award": 1.7689999341964722,
+      "triple_award": 5.306999683380127
+    },
+    {
+      "archive": "permanent.pak",
+      "name": "DrivingArchetype_Beginner_driftData_driftBoostList_1_minBoost",
+      "original_award": 0.33399999141693115,
+      "triple_award": 1.0019999742507935
+    },
+    {
+      "archive": "permanent.pak",
+      "name": "DrivingArchetype_Beginner_driftData_driftBoostList_1_maxBoost",
+      "original_award": 1.7669999599456787,
+      "triple_award": 5.301000118255615
+    },
+    {
+      "archive": "permanent.pak",
+      "name": "DrivingArchetype_Beginner_driftData_driftBoostList_2_minBoost",
+      "original_award": 0.2670000195503235,
+      "triple_award": 0.8009999990463257
+    },
+    {
+      "archive": "permanent.pak",
+      "name": "DrivingArchetype_Beginner_driftData_driftBoostList_2_maxBoost",
+      "original_award": 1.899999976158142,
+      "triple_award": 5.700000286102295
+    },
+    {
+      "archive": "permanent.pak",
+      "name": "DrivingArchetype_Beginner_driftData_maxDriftBoost",
+      "original_award": 1.600000023841858,
+      "triple_award": 4.799999713897705
+    },
+    {
+      "archive": "permanent.pak",
+      "name": "DrivingArchetype_Beginner_driftData_normalDriftBoost",
+      "original_award": 0.6000000238418579,
+      "triple_award": 1.8000000715255737
+    },
+    {
+      "archive": "permanent.pak",
+      "name": "DrivingArchetype_IntermediateA_driftData_driftBoostList_0_minBoost",
+      "original_award": 0.30000001192092896,
+      "triple_award": 0.9000000357627869
+    },
+    {
+      "archive": "permanent.pak",
+      "name": "DrivingArchetype_IntermediateA_driftData_driftBoostList_0_maxBoost",
+      "original_award": 1.7689999341964722,
+      "triple_award": 5.306999683380127
+    },
+    {
+      "archive": "permanent.pak",
+      "name": "DrivingArchetype_IntermediateA_driftData_driftBoostList_1_minBoost",
+      "original_award": 0.33399999141693115,
+      "triple_award": 1.0019999742507935
+    },
+    {
+      "archive": "permanent.pak",
+      "name": "DrivingArchetype_IntermediateA_driftData_driftBoostList_1_maxBoost",
+      "original_award": 1.7669999599456787,
+      "triple_award": 5.301000118255615
+    },
+    {
+      "archive": "permanent.pak",
+      "name": "DrivingArchetype_IntermediateA_driftData_driftBoostList_2_minBoost",
+      "original_award": 0.2670000195503235,
+      "triple_award": 0.8009999990463257
+    },
+    {
+      "archive": "permanent.pak",
+      "name": "DrivingArchetype_IntermediateA_driftData_driftBoostList_2_maxBoost",
+      "original_award": 1.899999976158142,
+      "triple_award": 5.700000286102295
+    },
+    {
+      "archive": "permanent.pak",
+      "name": "DrivingArchetype_IntermediateA_driftData_maxDriftBoost",
+      "original_award": 1.600000023841858,
+      "triple_award": 4.799999713897705
+    },
+    {
+      "archive": "permanent.pak",
+      "name": "DrivingArchetype_IntermediateA_driftData_normalDriftBoost",
+      "original_award": 0.6000000238418579,
+      "triple_award": 1.8000000715255737
+    },
+    {
+      "archive": "permanent.pak",
+      "name": "DrivingArchetype_IntermediateB_driftData_driftBoostList_0_minBoost",
+      "original_award": 0.30000001192092896,
+      "triple_award": 0.9000000357627869
+    },
+    {
+      "archive": "permanent.pak",
+      "name": "DrivingArchetype_IntermediateB_driftData_driftBoostList_0_maxBoost",
+      "original_award": 1.7689999341964722,
+      "triple_award": 5.306999683380127
+    },
+    {
+      "archive": "permanent.pak",
+      "name": "DrivingArchetype_IntermediateB_driftData_driftBoostList_1_minBoost",
+      "original_award": 0.33399999141693115,
+      "triple_award": 1.0019999742507935
+    },
+    {
+      "archive": "permanent.pak",
+      "name": "DrivingArchetype_IntermediateB_driftData_driftBoostList_1_maxBoost",
+      "original_award": 1.7669999599456787,
+      "triple_award": 5.301000118255615
+    },
+    {
+      "archive": "permanent.pak",
+      "name": "DrivingArchetype_IntermediateB_driftData_driftBoostList_2_minBoost",
+      "original_award": 0.2670000195503235,
+      "triple_award": 0.8009999990463257
+    },
+    {
+      "archive": "permanent.pak",
+      "name": "DrivingArchetype_IntermediateB_driftData_driftBoostList_2_maxBoost",
+      "original_award": 1.899999976158142,
+      "triple_award": 5.700000286102295
+    },
+    {
+      "archive": "permanent.pak",
+      "name": "DrivingArchetype_IntermediateB_driftData_maxDriftBoost",
+      "original_award": 1.600000023841858,
+      "triple_award": 4.799999713897705
+    },
+    {
+      "archive": "permanent.pak",
+      "name": "DrivingArchetype_IntermediateB_driftData_normalDriftBoost",
+      "original_award": 0.6000000238418579,
+      "triple_award": 1.8000000715255737
+    },
+    {
+      "archive": "update.pak",
+      "name": "DrivingArchetype_Advanced_driftData_driftBoostList_0_minBoost",
+      "original_award": 0.30000001192092896,
+      "triple_award": 0.9000000357627869
+    },
+    {
+      "archive": "update.pak",
+      "name": "DrivingArchetype_Advanced_driftData_driftBoostList_0_maxBoost",
+      "original_award": 1.7689999341964722,
+      "triple_award": 5.306999683380127
+    },
+    {
+      "archive": "update.pak",
+      "name": "DrivingArchetype_Advanced_driftData_driftBoostList_1_minBoost",
+      "original_award": 0.33399999141693115,
+      "triple_award": 1.0019999742507935
+    },
+    {
+      "archive": "update.pak",
+      "name": "DrivingArchetype_Advanced_driftData_driftBoostList_1_maxBoost",
+      "original_award": 1.7669999599456787,
+      "triple_award": 5.301000118255615
+    },
+    {
+      "archive": "update.pak",
+      "name": "DrivingArchetype_Advanced_driftData_driftBoostList_2_minBoost",
+      "original_award": 0.2670000195503235,
+      "triple_award": 0.8009999990463257
+    },
+    {
+      "archive": "update.pak",
+      "name": "DrivingArchetype_Advanced_driftData_driftBoostList_2_maxBoost",
+      "original_award": 1.899999976158142,
+      "triple_award": 5.700000286102295
+    },
+    {
+      "archive": "update.pak",
+      "name": "DrivingArchetype_Advanced_driftData_maxDriftBoost",
+      "original_award": 1.600000023841858,
+      "triple_award": 4.799999713897705
+    },
+    {
+      "archive": "update.pak",
+      "name": "DrivingArchetype_Advanced_driftData_normalDriftBoost",
+      "original_award": 0.6000000238418579,
+      "triple_award": 1.8000000715255737
+    },
+    {
+      "archive": "update.pak",
+      "name": "DrivingArchetype_Beginner_driftData_driftBoostList_0_minBoost",
+      "original_award": 0.30000001192092896,
+      "triple_award": 0.9000000357627869
+    },
+    {
+      "archive": "update.pak",
+      "name": "DrivingArchetype_Beginner_driftData_driftBoostList_0_maxBoost",
+      "original_award": 1.7689999341964722,
+      "triple_award": 5.306999683380127
+    },
+    {
+      "archive": "update.pak",
+      "name": "DrivingArchetype_Beginner_driftData_driftBoostList_1_minBoost",
+      "original_award": 0.33399999141693115,
+      "triple_award": 1.0019999742507935
+    },
+    {
+      "archive": "update.pak",
+      "name": "DrivingArchetype_Beginner_driftData_driftBoostList_1_maxBoost",
+      "original_award": 1.7669999599456787,
+      "triple_award": 5.301000118255615
+    },
+    {
+      "archive": "update.pak",
+      "name": "DrivingArchetype_Beginner_driftData_driftBoostList_2_minBoost",
+      "original_award": 0.2670000195503235,
+      "triple_award": 0.8009999990463257
+    },
+    {
+      "archive": "update.pak",
+      "name": "DrivingArchetype_Beginner_driftData_driftBoostList_2_maxBoost",
+      "original_award": 1.899999976158142,
+      "triple_award": 5.700000286102295
+    },
+    {
+      "archive": "update.pak",
+      "name": "DrivingArchetype_Beginner_driftData_maxDriftBoost",
+      "original_award": 1.600000023841858,
+      "triple_award": 4.799999713897705
+    },
+    {
+      "archive": "update.pak",
+      "name": "DrivingArchetype_Beginner_driftData_normalDriftBoost",
+      "original_award": 0.6000000238418579,
+      "triple_award": 1.8000000715255737
+    },
+    {
+      "archive": "update.pak",
+      "name": "DrivingArchetype_IntermediateA_driftData_driftBoostList_0_minBoost",
+      "original_award": 0.30000001192092896,
+      "triple_award": 0.9000000357627869
+    },
+    {
+      "archive": "update.pak",
+      "name": "DrivingArchetype_IntermediateA_driftData_driftBoostList_0_maxBoost",
+      "original_award": 1.7689999341964722,
+      "triple_award": 5.306999683380127
+    },
+    {
+      "archive": "update.pak",
+      "name": "DrivingArchetype_IntermediateA_driftData_driftBoostList_1_minBoost",
+      "original_award": 0.33399999141693115,
+      "triple_award": 1.0019999742507935
+    },
+    {
+      "archive": "update.pak",
+      "name": "DrivingArchetype_IntermediateA_driftData_driftBoostList_1_maxBoost",
+      "original_award": 1.7669999599456787,
+      "triple_award": 5.301000118255615
+    },
+    {
+      "archive": "update.pak",
+      "name": "DrivingArchetype_IntermediateA_driftData_driftBoostList_2_minBoost",
+      "original_award": 0.2670000195503235,
+      "triple_award": 0.8009999990463257
+    },
+    {
+      "archive": "update.pak",
+      "name": "DrivingArchetype_IntermediateA_driftData_driftBoostList_2_maxBoost",
+      "original_award": 1.899999976158142,
+      "triple_award": 5.700000286102295
+    },
+    {
+      "archive": "update.pak",
+      "name": "DrivingArchetype_IntermediateA_driftData_maxDriftBoost",
+      "original_award": 1.600000023841858,
+      "triple_award": 4.799999713897705
+    },
+    {
+      "archive": "update.pak",
+      "name": "DrivingArchetype_IntermediateA_driftData_normalDriftBoost",
+      "original_award": 0.6000000238418579,
+      "triple_award": 1.8000000715255737
+    },
+    {
+      "archive": "update.pak",
+      "name": "DrivingArchetype_IntermediateB_driftData_driftBoostList_0_minBoost",
+      "original_award": 0.30000001192092896,
+      "triple_award": 0.9000000357627869
+    },
+    {
+      "archive": "update.pak",
+      "name": "DrivingArchetype_IntermediateB_driftData_driftBoostList_0_maxBoost",
+      "original_award": 1.7689999341964722,
+      "triple_award": 5.306999683380127
+    },
+    {
+      "archive": "update.pak",
+      "name": "DrivingArchetype_IntermediateB_driftData_driftBoostList_1_minBoost",
+      "original_award": 0.33399999141693115,
+      "triple_award": 1.0019999742507935
+    },
+    {
+      "archive": "update.pak",
+      "name": "DrivingArchetype_IntermediateB_driftData_driftBoostList_1_maxBoost",
+      "original_award": 1.7669999599456787,
+      "triple_award": 5.301000118255615
+    },
+    {
+      "archive": "update.pak",
+      "name": "DrivingArchetype_IntermediateB_driftData_driftBoostList_2_minBoost",
+      "original_award": 0.2670000195503235,
+      "triple_award": 0.8009999990463257
+    },
+    {
+      "archive": "update.pak",
+      "name": "DrivingArchetype_IntermediateB_driftData_driftBoostList_2_maxBoost",
+      "original_award": 1.899999976158142,
+      "triple_award": 5.700000286102295
+    },
+    {
+      "archive": "update.pak",
+      "name": "DrivingArchetype_IntermediateB_driftData_maxDriftBoost",
+      "original_award": 1.600000023841858,
+      "triple_award": 4.799999713897705
+    },
+    {
+      "archive": "update.pak",
+      "name": "DrivingArchetype_IntermediateB_driftData_normalDriftBoost",
+      "original_award": 0.6000000238418579,
+      "triple_award": 1.8000000715255737
+    },
+    {
+      "archive": "update2.pak",
+      "name": "DrivingArchetype_Advanced_driftData_driftBoostList_0_minBoost",
+      "original_award": 0.30000001192092896,
+      "triple_award": 0.9000000357627869
+    },
+    {
+      "archive": "update2.pak",
+      "name": "DrivingArchetype_Advanced_driftData_driftBoostList_0_maxBoost",
+      "original_award": 1.7689999341964722,
+      "triple_award": 5.306999683380127
+    },
+    {
+      "archive": "update2.pak",
+      "name": "DrivingArchetype_Advanced_driftData_driftBoostList_1_minBoost",
+      "original_award": 0.33399999141693115,
+      "triple_award": 1.0019999742507935
+    },
+    {
+      "archive": "update2.pak",
+      "name": "DrivingArchetype_Advanced_driftData_driftBoostList_1_maxBoost",
+      "original_award": 1.7669999599456787,
+      "triple_award": 5.301000118255615
+    },
+    {
+      "archive": "update2.pak",
+      "name": "DrivingArchetype_Advanced_driftData_driftBoostList_2_minBoost",
+      "original_award": 0.2670000195503235,
+      "triple_award": 0.8009999990463257
+    },
+    {
+      "archive": "update2.pak",
+      "name": "DrivingArchetype_Advanced_driftData_driftBoostList_2_maxBoost",
+      "original_award": 1.899999976158142,
+      "triple_award": 5.700000286102295
+    },
+    {
+      "archive": "update2.pak",
+      "name": "DrivingArchetype_Advanced_driftData_maxDriftBoost",
+      "original_award": 1.600000023841858,
+      "triple_award": 4.799999713897705
+    },
+    {
+      "archive": "update2.pak",
+      "name": "DrivingArchetype_Advanced_driftData_normalDriftBoost",
+      "original_award": 0.6000000238418579,
+      "triple_award": 1.8000000715255737
+    },
+    {
+      "archive": "update2.pak",
+      "name": "DrivingArchetype_Beginner_driftData_driftBoostList_0_minBoost",
+      "original_award": 0.30000001192092896,
+      "triple_award": 0.9000000357627869
+    },
+    {
+      "archive": "update2.pak",
+      "name": "DrivingArchetype_Beginner_driftData_driftBoostList_0_maxBoost",
+      "original_award": 1.7689999341964722,
+      "triple_award": 5.306999683380127
+    },
+    {
+      "archive": "update2.pak",
+      "name": "DrivingArchetype_Beginner_driftData_driftBoostList_1_minBoost",
+      "original_award": 0.33399999141693115,
+      "triple_award": 1.0019999742507935
+    },
+    {
+      "archive": "update2.pak",
+      "name": "DrivingArchetype_Beginner_driftData_driftBoostList_1_maxBoost",
+      "original_award": 1.7669999599456787,
+      "triple_award": 5.301000118255615
+    },
+    {
+      "archive": "update2.pak",
+      "name": "DrivingArchetype_Beginner_driftData_driftBoostList_2_minBoost",
+      "original_award": 0.2670000195503235,
+      "triple_award": 0.8009999990463257
+    },
+    {
+      "archive": "update2.pak",
+      "name": "DrivingArchetype_Beginner_driftData_driftBoostList_2_maxBoost",
+      "original_award": 1.899999976158142,
+      "triple_award": 5.700000286102295
+    },
+    {
+      "archive": "update2.pak",
+      "name": "DrivingArchetype_Beginner_driftData_maxDriftBoost",
+      "original_award": 1.600000023841858,
+      "triple_award": 4.799999713897705
+    },
+    {
+      "archive": "update2.pak",
+      "name": "DrivingArchetype_Beginner_driftData_normalDriftBoost",
+      "original_award": 0.6000000238418579,
+      "triple_award": 1.8000000715255737
+    },
+    {
+      "archive": "update2.pak",
+      "name": "DrivingArchetype_IntermediateA_driftData_driftBoostList_0_minBoost",
+      "original_award": 0.30000001192092896,
+      "triple_award": 0.9000000357627869
+    },
+    {
+      "archive": "update2.pak",
+      "name": "DrivingArchetype_IntermediateA_driftData_driftBoostList_0_maxBoost",
+      "original_award": 1.7689999341964722,
+      "triple_award": 5.306999683380127
+    },
+    {
+      "archive": "update2.pak",
+      "name": "DrivingArchetype_IntermediateA_driftData_driftBoostList_1_minBoost",
+      "original_award": 0.33399999141693115,
+      "triple_award": 1.0019999742507935
+    },
+    {
+      "archive": "update2.pak",
+      "name": "DrivingArchetype_IntermediateA_driftData_driftBoostList_1_maxBoost",
+      "original_award": 1.7669999599456787,
+      "triple_award": 5.301000118255615
+    },
+    {
+      "archive": "update2.pak",
+      "name": "DrivingArchetype_IntermediateA_driftData_driftBoostList_2_minBoost",
+      "original_award": 0.2670000195503235,
+      "triple_award": 0.8009999990463257
+    },
+    {
+      "archive": "update2.pak",
+      "name": "DrivingArchetype_IntermediateA_driftData_driftBoostList_2_maxBoost",
+      "original_award": 1.899999976158142,
+      "triple_award": 5.700000286102295
+    },
+    {
+      "archive": "update2.pak",
+      "name": "DrivingArchetype_IntermediateA_driftData_maxDriftBoost",
+      "original_award": 1.600000023841858,
+      "triple_award": 4.799999713897705
+    },
+    {
+      "archive": "update2.pak",
+      "name": "DrivingArchetype_IntermediateA_driftData_normalDriftBoost",
+      "original_award": 0.6000000238418579,
+      "triple_award": 1.8000000715255737
+    },
+    {
+      "archive": "update2.pak",
+      "name": "DrivingArchetype_IntermediateB_driftData_driftBoostList_0_minBoost",
+      "original_award": 0.30000001192092896,
+      "triple_award": 0.9000000357627869
+    },
+    {
+      "archive": "update2.pak",
+      "name": "DrivingArchetype_IntermediateB_driftData_driftBoostList_0_maxBoost",
+      "original_award": 1.7689999341964722,
+      "triple_award": 5.306999683380127
+    },
+    {
+      "archive": "update2.pak",
+      "name": "DrivingArchetype_IntermediateB_driftData_driftBoostList_1_minBoost",
+      "original_award": 0.33399999141693115,
+      "triple_award": 1.0019999742507935
+    },
+    {
+      "archive": "update2.pak",
+      "name": "DrivingArchetype_IntermediateB_driftData_driftBoostList_1_maxBoost",
+      "original_award": 1.7669999599456787,
+      "triple_award": 5.301000118255615
+    },
+    {
+      "archive": "update2.pak",
+      "name": "DrivingArchetype_IntermediateB_driftData_driftBoostList_2_minBoost",
+      "original_award": 0.2670000195503235,
+      "triple_award": 0.8009999990463257
+    },
+    {
+      "archive": "update2.pak",
+      "name": "DrivingArchetype_IntermediateB_driftData_driftBoostList_2_maxBoost",
+      "original_award": 1.899999976158142,
+      "triple_award": 5.700000286102295
+    },
+    {
+      "archive": "update2.pak",
+      "name": "DrivingArchetype_IntermediateB_driftData_maxDriftBoost",
+      "original_award": 1.600000023841858,
+      "triple_award": 4.799999713897705
+    },
+    {
+      "archive": "update2.pak",
+      "name": "DrivingArchetype_IntermediateB_driftData_normalDriftBoost",
+      "original_award": 0.6000000238418579,
+      "triple_award": 1.8000000715255737
+    },
+    {
+      "archive": "update2.pak",
+      "name": "DrivingArchetypes_AdvancedB_driftData_driftBoostList_0_minBoost",
+      "original_award": 0.3499999940395355,
+      "triple_award": 1.0499999523162842
+    },
+    {
+      "archive": "update2.pak",
+      "name": "DrivingArchetypes_AdvancedB_driftData_driftBoostList_0_maxBoost",
+      "original_award": 1.86899995803833,
+      "triple_award": 5.60699987411499
+    },
+    {
+      "archive": "update2.pak",
+      "name": "DrivingArchetypes_AdvancedB_driftData_driftBoostList_1_minBoost",
+      "original_award": 0.33899998664855957,
+      "triple_award": 1.0169999599456787
+    },
+    {
+      "archive": "update2.pak",
+      "name": "DrivingArchetypes_AdvancedB_driftData_driftBoostList_1_maxBoost",
+      "original_award": 1.8670001029968262,
+      "triple_award": 5.6010003089904785
+    },
+    {
+      "archive": "update2.pak",
+      "name": "DrivingArchetypes_AdvancedB_driftData_driftBoostList_2_minBoost",
+      "original_award": 0.2720000147819519,
+      "triple_award": 0.8159999847412109
+    },
+    {
+      "archive": "update2.pak",
+      "name": "DrivingArchetypes_AdvancedB_driftData_driftBoostList_2_maxBoost",
+      "original_award": 2.0,
+      "triple_award": 6.0
+    }
+  ],
+  "gameplay_verified": false
+}
